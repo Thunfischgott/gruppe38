@@ -1,0 +1,7 @@
+
+public class Figur {
+	public Figur(int x, int y){
+		StdDraw.filledSquare(0.0, 0.0, 1.0);	//Die StdDraw Klasse erstellt automatisch ein Fenster
+		StdDraw.show();
+	}
+}

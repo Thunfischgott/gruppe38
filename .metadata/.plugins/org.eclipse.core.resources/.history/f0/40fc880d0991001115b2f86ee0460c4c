@@ -1,0 +1,15 @@
+/*
+ * Die Spielfiguren
+ */
+
+public class Figur {
+	public Figur(int x, int y){
+        //Skala beginnt unten links
+        StdDraw.setXscale(0, 100);
+        StdDraw.setYscale(0, 100);
+        
+	//	StdDraw.filledSquare(x, y, 1.0);	//Die StdDraw-Klasse erstellt automatisch ein Fenster
+		StdDraw.picture(x, y, "src/earth.gif");
+		StdDraw.show(10);
+	}
+}

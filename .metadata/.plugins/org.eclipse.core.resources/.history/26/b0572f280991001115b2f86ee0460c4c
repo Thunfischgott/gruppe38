@@ -1,0 +1,12 @@
+/*
+ * Die Spielfiguren
+ */
+
+public class Figur {
+	public Figur(int x, int y){
+        
+        
+	//	StdDraw.filledSquare(x, y, 1.0);	//Die StdDraw-Klasse erstellt automatisch ein Fenster
+		StdDraw.picture(x, y, "src/earth.gif");
+	}
+}

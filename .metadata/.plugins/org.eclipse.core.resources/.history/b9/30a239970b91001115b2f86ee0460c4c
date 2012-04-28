@@ -1,0 +1,22 @@
+/*
+ * Die Spielfiguren
+ */
+
+public class Figur {
+	private int x;
+	private int y;
+	
+	public Figur(int xWert, int yWert){
+		x = xWert;
+		y = yWert;
+	}
+	
+	public void moveRight(){
+		x = x+10;
+	}
+	
+	public void show(){
+		StdDraw.picture(x, y, "src/earth.gif");
+		StdDraw.show(10);
+	}
+}

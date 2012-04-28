@@ -1,0 +1,10 @@
+/*
+ * Das Spielfeld
+ */
+public class Spielfeld {
+	public Spielfeld(){
+		StdDraw.setXscale(0, 100);
+        StdDraw.setYscale(0, 100);
+	}
+    
+}

@@ -1,0 +1,9 @@
+/*
+ * Die Spielfiguren
+ */
+
+public class Figur {
+	public Figur(int x, int y){
+		StdDraw.picture(x, y, "src/earth.gif");
+	}
+}

@@ -1,0 +1,11 @@
+
+public class Figur {
+	public Figur(int x, int y){
+        // set the scale of the coordinate system
+        StdDraw.setXscale(10, 0);
+        StdDraw.setYscale(0, 10);
+        
+		StdDraw.filledSquare(x, y, 1.0);	//Die StdDraw Klasse erstellt automatisch ein Fenster
+		StdDraw.show();
+	}
+}

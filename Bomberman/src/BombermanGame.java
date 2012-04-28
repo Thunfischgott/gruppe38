@@ -7,8 +7,15 @@ public class BombermanGame {
 	 * Unsere schöne main :)
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Spielfeld field = new Spielfeld(10,10);
+		Figur player = new Figur(0,100, field);
+		
+			while (true){
+				field.clear();
+				player.moveDown();
+				player.show();
+			}
+		
 	}
 
 }

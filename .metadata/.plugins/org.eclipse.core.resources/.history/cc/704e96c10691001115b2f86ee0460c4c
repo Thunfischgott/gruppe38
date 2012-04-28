@@ -1,0 +1,13 @@
+
+public class BombermanGame {
+
+	/**
+	 * @param args
+	 * 
+	 * Unsere schöne main :)
+	 */
+	public static void main(String[] args) {
+		Figur Player = new Figur(1,1);
+	}
+
+}

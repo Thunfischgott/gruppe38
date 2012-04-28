@@ -1,0 +1,32 @@
+/*
+ * Das Spielfeld
+ */
+public class Spielfeld {
+	private int x;
+	private int y;
+	
+	public Spielfeld(int xWert,int yWert){
+		x = xWert;
+		y = yWert;
+		StdDraw.setXscale(0, x);
+        StdDraw.setYscale(0, y);
+        StdDraw.setCanvasSize(x, y);
+	}
+	
+	public void show(){
+		StdDraw.show();
+	}
+	
+	public void clear(){
+		StdDraw.clear();
+	}
+	
+	public int getRandRechts(){
+		return x;
+	}
+	
+	public int getRandUnten(){
+		return y;
+	}
+    
+}

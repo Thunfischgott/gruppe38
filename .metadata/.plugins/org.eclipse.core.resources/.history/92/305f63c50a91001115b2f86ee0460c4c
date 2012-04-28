@@ -1,0 +1,22 @@
+
+public class BombermanGame {
+
+	/**
+	 * @param args
+	 * 
+	 * Unsere schöne main :)
+	 */
+	public static void main(String[] args) {
+		Spielfeld field = new Spielfeld(100,100);
+		Figur player = new Figur(1,100);
+		
+			field.show(); 
+			while (true){
+				player.moveRight();
+				player.show();
+				StdDraw.show(10);
+			}
+		
+	}
+
+}
